@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+
+    <form action="" method="post">
+        <label>Nome: </label>
+        <input type="text" maxlength="10"><br/>
+
+        <label>Senha: </label>
+        <input type="password" maxlength="10"><br/>
+
+        <label>Email: </label>
+        <input type="email" maxlength="30"><br/>
+
+        <label>Descreva o motivo do contato: </label>
+        <input type="text" maxlength="200"><br/>
+
+        <p>Selecione o motivo:</p>
+        <input type="radio" id="nao-entregue" name="motivo" value="nao-entregue">
+        <label for="nao-entregue">NÃO FOI ENTREGUE</label><br/>
+
+        <input type="radio" id="devolucao" name="motivo" value="devolucao">
+        <label for="devolucao">DEVOLUÇÃO</label><br/>
+
+        <input type="radio" id="reembolso" name="motivo" value="reembolso">
+        <label for="reembolso">REEMBOLSO</label><br/>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Excluir">
+    </form>
+
+    <br/>
+    <a href="Pagina2.html">VOLTAR PARA CONTATO</a>
+</body>
+</html>
